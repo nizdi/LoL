@@ -1,0 +1,9 @@
+﻿  dllmain.cpp
+C:\Users\Gabriel\Downloads\LoL-base-master\AIManager.h(35,19): warning C4129:  ',': unrecognized character escape sequence
+C:\Users\Gabriel\Downloads\LoL-base-master\Prediction.h(18): warning C4091:  'static ': ignored on left of 'LinePrediction::LineInfo_t' when no variable is declared
+C:\Users\Gabriel\Downloads\LoL-base-master\Prediction.h(5719,37): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Gabriel\Downloads\LoL-base-master\Orbwalker.h(525,23): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Gabriel\Downloads\LoL-base-master\Orbwalker.h(548,1): warning C4804:  '<=': unsafe use of type 'bool' in operation
+C:\Users\Gabriel\Downloads\LoL-base-master\Orbwalker.h(484): warning C4715:  'Orbwalker::LaneClearPred': not all control paths return a value
+C:\Users\Gabriel\Downloads\LoL-base-master\Orbwalker.h(389): warning C4715:  'Orbwalker::getReductedPriority': not all control paths return a value
+  LoL base.vcxproj -> C:\Users\Gabriel\Downloads\LoL-base-master\Debug\LoL base.dll

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Base">
+      <UniqueIdentifier>{83f7b97d-b7c7-4617-8123-fa6c39a51d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Base">
+      <UniqueIdentifier>{c2d869c7-98dd-473f-8b0b-8483f5d9acc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Engine">
+      <UniqueIdentifier>{8c33f709-f8ad-41dd-85eb-7cc2ddbb92eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Utils">
+      <UniqueIdentifier>{4d7db0c6-396d-4713-bb18-3d27880b0c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Objects">
+      <UniqueIdentifier>{8643f600-84c4-475b-ace1-48d4e1014c44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Objects">
+      <UniqueIdentifier>{465ade86-a295-40ee-9231-ef935f9fdfc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Arquivos de Cabeçalho\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Arquivos de Cabeçalho\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Arquivos de Cabeçalho\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Arquivos de Cabeçalho\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectManager.h">
+      <Filter>Arquivos de Cabeçalho\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>Arquivos de Cabeçalho\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Arquivos de Cabeçalho\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="guicon.h">
+      <Filter>Arquivos de Cabeçalho\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Arquivos de Cabeçalho\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffManager.h">
+      <Filter>Arquivos de Cabeçalho\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpellEntry.h">
+      <Filter>Arquivos de Cabeçalho\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>Arquivos de Cabeçalho\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Orbwalker.h">
+      <Filter>Arquivos de Cabeçalho\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellSlot.h">
+      <Filter>Arquivos de Cabeçalho\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Arquivos de Cabeçalho\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpellBook.h">
+      <Filter>Arquivos de Cabeçalho\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffEntry.h">
+      <Filter>Arquivos de Cabeçalho\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellInfo.h">
+      <Filter>Arquivos de Cabeçalho\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellData.h">
+      <Filter>Arquivos de Cabeçalho\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="AIManager.h">
+      <Filter>Arquivos de Cabeçalho\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Prediction.h">
+      <Filter>Arquivos de Cabeçalho\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LoL base.cpp">
+      <Filter>Arquivos de Origem\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Arquivos de Origem\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="guicon.cpp">
+      <Filter>Arquivos de Origem\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>Arquivos de Origem\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Orbwalker.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpellBook.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellSlot.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpellEntry.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffManager.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffEntry.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Prediction.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="AIManager.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
